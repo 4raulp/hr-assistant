@@ -17,10 +17,10 @@ resources:
   inference:
     requests:
       cpu: "2"
-      memory: "8Gi"
+      memory: "16Gi"
     limits:
       cpu: "8"
-      memory: "8Gi"
+      memory: "16Gi"
 
 storageClassName: gp3-csi
 
